@@ -1,1 +1,10 @@
-streamlit>=1.26.0
+streamlit
+numpy
+pandas
+seaborn
+scikt-learn
+skimage
+imutils 
+cv2
+PIL 
+requests

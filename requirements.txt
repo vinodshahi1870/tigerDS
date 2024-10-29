@@ -5,5 +5,5 @@ seaborn
 scikit-image
 imutils 
 opencv-python
-PIL 
+pillow 
 requests

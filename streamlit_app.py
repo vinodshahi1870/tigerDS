@@ -33,7 +33,7 @@ for c in cunts:
     (x,y,w,h) =cv2.boundingRect(c)
     cv2.rectangle(original,(x,y),(x+w,y+h),(0,0,255),2)
     cv2.rectangle(tampered,(x,y),(x+w,y+h),(0,0,255),2)
-  print("original format of Image")
+print("original format of Image")
 Image.fromarray(original)
 print("Tampered format of Image")
 Image.fromarray(tampered)

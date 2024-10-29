@@ -4,6 +4,6 @@ pandas
 seaborn
 scikit-image
 imutils 
-cv2
+opencv-python
 PIL 
 requests

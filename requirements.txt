@@ -4,6 +4,6 @@ pandas
 seaborn
 scikit-image
 imutils 
-opencv-python
+opencv-python-headless
 pillow 
 requests

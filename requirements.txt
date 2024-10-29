@@ -1,7 +1,7 @@
 streamlit
 numpy
 pandas
-seabor
+seaborn
 skimage
 imutils 
 cv2

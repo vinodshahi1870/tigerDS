@@ -2,7 +2,7 @@ streamlit
 numpy
 pandas
 seaborn
-skimage
+scikit-image
 imutils 
 cv2
 PIL 

@@ -4,10 +4,17 @@ import imutils
 import cv2
 from PIL import Image 
 import requests
-
+from IPython.display import display, HTML
+import ipywidgets as widgets
 st.title('📺 Pan Card Checker')
 
 st.write('Here you can check Pan Card is tampered or not')
+uploader = widgets.FileUpload(
+    accept='image/*',  # Accept only image files
+    multiple=False  # Allow only one file upload at a time
+)
+
+display(uploader)
 original = Image.open(requests.get( 'https://www.thestatesman.com/wp-content/uploads/2019/07/pan-card.jpg', stream=True) .raw)
 tampered = Image.open(requests.get('https://assets1.cleartax-cdn.com/s/img/20170526124335/Pan4.png', stream=True) .raw)
 #print("Original Image",original.format,"Size" ,original.size,"  ","Tempered Image",tampered.format,"Size",  tampered.size)

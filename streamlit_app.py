@@ -23,8 +23,8 @@ original.save("original.png")
 tampered = tampered.resize((250,160))
 tampered.save("tampered.png")
 print("Original image size:",original.size,"  ","Tampered image size:", tampered.size)
-original
-tampered
+#original
+#tampered
 original = cv2.imread("original.png")
 tampered = cv2.imread("tampered.png")
 original_gray = cv2.cvtColor(original , cv2.COLOR_BGR2GRAY)
